@@ -3,5 +3,5 @@ def prime?(number)
     return false
   else 
     (2..number - 1).to_a.all? do |n|
-      number x n 
+      number x n !
 end
